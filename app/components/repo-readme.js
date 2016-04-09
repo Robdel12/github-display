@@ -1,0 +1,1 @@
+export { default } from 'github-display/components/repo-readme';
