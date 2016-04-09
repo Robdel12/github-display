@@ -19,20 +19,18 @@ To package.json add:
 
 <p>Shows information about a github repository.</p>
 <p>TODO: needs to be fleshed out and made configuratbel</p>
-<p>To use the component do:
+<p>To use the component do:</p>
 ```
 {{repo-display id="langens-jonathan/github-display"}}
 ```
-</p>
 
 ### repo-readme
 <p>Shows the readme for the repository with the given id</p>
 <p>TODO: fleshing out, making it more flexible</p>
-<p>To use the component do:
+<p>To use the component do:</p>
 ```
 {{repo-readme repoId="langens-jonathan/github-display"}}
 ```
-</p>
 
 ## Installation
 
