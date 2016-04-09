@@ -21,7 +21,16 @@ To package.json add:
 <p>TODO: needs to be fleshed out and made configuratbel</p>
 <p>To use the component do:
 ```
+{{repo-display id="langens-jonathan/github-display"}}
+```
 
+### repo-readme
+<p>Shows the readme for the repository with the given id</p?
+<p>TODO: fleshing out, making it more flexible</p>
+<p>To use the component do:
+```
+{{repo-readme repoId="langens-jonathan/github-display"}}
+'''
 
 
 ## Installation

@@ -1,6 +1,6 @@
 {
   "name": "github-display",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This addon provides some components to add github visualisations.",
   "directories": {
     "doc": "doc",
