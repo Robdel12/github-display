@@ -30,7 +30,7 @@ To package.json add:
 <p>To use the component do:
 ```
 {{repo-readme repoId="langens-jonathan/github-display"}}
-'''
+```
 
 
 ## Installation
