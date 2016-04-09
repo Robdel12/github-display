@@ -23,15 +23,16 @@ To package.json add:
 ```
 {{repo-display id="langens-jonathan/github-display"}}
 ```
+</p>
 
 ### repo-readme
-<p>Shows the readme for the repository with the given id</p?
+<p>Shows the readme for the repository with the given id</p>
 <p>TODO: fleshing out, making it more flexible</p>
 <p>To use the component do:
 ```
 {{repo-readme repoId="langens-jonathan/github-display"}}
 ```
-
+</p>
 
 ## Installation
 
