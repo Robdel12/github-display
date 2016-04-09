@@ -1,6 +1,28 @@
 # Github-display
 
-This README outlines the details of collaborating on this Ember addon.
+This addon provides some components to display github information
+
+## Including it in your project
+
+To package.json add:
+```
+  "devDependencies": {
+    ...
+    "github-display":"0.0.1"
+    ...
+  }
+```
+
+## Components
+
+### repo-display
+
+<p>Shows information about a github repository.</p>
+<p>TODO: needs to be fleshed out and made configuratbel</p>
+<p>To use the component do:
+```
+
+
 
 ## Installation
 

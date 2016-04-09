@@ -1,6 +1,10 @@
 <h2>{{repo.name}}</h2>
 <div style= "display:inline-block; float:left; width:15%; border-right:1px solid black;">
 <table>
+{{fullName}}
+{{ownerName}}
+{{name}}
+{{id}}
 <tr><td>full name</td><td>{{repo.fullName}}</td></tr>
 <tr><td>owner</td><td>{{repo.ownerName}}</td></tr>
 <tr><td>id</td><td>{{repo.id}}</td></tr>
@@ -9,6 +13,6 @@
 </div>
 {{#if readmeOpen}}
   <div style="display:inline-block;wid;margin-left:15px;">
-       {{repo-readme repoId=id}}
+    {{repo-readme repoId=id}}
   </div>
 {{/if}}

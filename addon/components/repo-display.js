@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     repo: void 0,
 
     id: void 0,
-
+    
     readmeOpen: true,
 
     descriptionDivStyle: Ember.computed('readmeOpen',
@@ -27,7 +27,7 @@ export default Ember.Component.extend({
 	promise = this.get('store').findRecord('repo', this.get('id'));
 	return promise.then((function(_this) {
 	    return function(result) {
-		return _this.set('repo', result);
+		_this.set('repo', result);
 	    };
 	})(this));
     },
