@@ -8,7 +8,7 @@ To package.json add:
 ```
   "devDependencies": {
     ...
-    "github-display":"0.0.1"
+    "github-display":"0.0.4"
     ...
   }
 ```
