@@ -1,15 +1,16 @@
 import DS from 'ember-data';
+import Ember from 'ember';
 
 export default DS.JSONSerializer.extend({
-    normalizeSingleResponse: function(store, primaryModelClass, payload, id, requestType)
+    normalizeSingleResponse: function(store, primaryModelClass, payload)
     {
       // payload.data.attributes.amount = payload.data.attributes.cost.amount;
       // payload.data.attributes.amount = payload.data.attributes.cost.currency;
-      
+
       // delete payload.data.attributes.cost;
 
       Ember.Logger.log(payload);
-      
+
       return this._super(...arguments);
     },
 

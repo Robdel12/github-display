@@ -1,10 +1,11 @@
 import DS from 'ember-data';
+import Ember from 'ember';
 
 export default DS.JSONSerializer.extend({
-    normalizeSingleResponse: function(store, primaryModelClass, payload, id, requestType)
+    normalizeSingleResponse: function(store, primaryModelClass, payload)
     {
       Ember.Logger.log(payload);
-      
+
       return this._super(...arguments);
     },
 
